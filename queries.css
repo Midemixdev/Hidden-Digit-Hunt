@@ -50,20 +50,15 @@
   .click {
     font-size: 1.6rem;
   }
-  .number {
-    width: 10rem;
+  input.guess {
+    width: 13rem;
   }
-
   /* media at 560 */
 }
 
 @media (max-width: 35rem) {
   html {
     font-size: 37.5%;
-  }
-
-  .number {
-    width: 7rem;
   }
   /* media at 480 */
 }
@@ -74,10 +69,6 @@
   }
   .guess-no {
     font-size: 3rem;
-  }
-
-  .number {
-    width: 4rem;
   }
   /* media at 400 */
 }
