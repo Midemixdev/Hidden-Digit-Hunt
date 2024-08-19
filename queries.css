@@ -1,0 +1,72 @@
+@media (max-width: 68.75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* media at 1100 */
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* media at 900 */
+}
+
+@media (max-width: 45.625em) {
+  .top-head {
+    font-size: 2.8rem;
+  }
+  .top-p {
+    font-size: 2.5rem;
+  }
+
+  .click {
+    padding: 4rem 2.5rem;
+  }
+  /* media at 730 */
+}
+
+@media (max-width: 40.625em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  /* media at 650 */
+}
+
+@media (max-width: 35rem) {
+  .guess-no {
+    font-size: 3.5rem;
+  }
+  .top-head {
+    font-size: 2.4rem;
+  }
+  .top-p {
+    font-size: 2.1rem;
+  }
+
+  .click {
+    font-size: 1.6rem;
+  }
+
+  /* media at 560 */
+}
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 37.5%;
+  }
+  /* media at 480 */
+}
+
+@media (max-width: 25rem) {
+  html {
+    font-size: 31.25%;
+  }
+  .guess-no {
+    font-size: 3rem;
+  }
+  /* media at 400 */
+}
