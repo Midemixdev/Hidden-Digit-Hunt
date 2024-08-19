@@ -8,7 +8,8 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '🚫 No number!';
   } else if (guess === number) {
     document.querySelector('.message').textContent = '✔ Correct Number!';
-    document.body.classList.add('body');
+    document.querySelector('.message').style.color = '#34C759';
+    document.querySelector('.message').style.fontWeight = 'bold';
     document.querySelector('.number').textContent = number;
     document.querySelector('.number').style.width = '25rem';
 
@@ -21,7 +22,6 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = '😒 Guess too high!';
       score = score - 1;
       document.querySelector('.score').textContent = score;
-      document.body.classList.remove('body');
     } else {
       document.querySelector('.message').textContent = '🚩 You lost the game';
       document.querySelector('.score').textContent = 0;
@@ -29,7 +29,6 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess < number) {
     if (score > 1) {
       document.querySelector('.message').textContent = '😒 Guess too low!';
-      document.body.classList.remove('body');
       score = score - 1;
       document.querySelector('.score').textContent = score;
     } else {
