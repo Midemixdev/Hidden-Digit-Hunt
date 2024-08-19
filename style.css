@@ -15,8 +15,6 @@ body {
   font-family: 'Roboto Slab', serif;
   color: #eeeeeef6;
   overflow-x: hidden;
-  /* overflow: hidden; */
-  /* background-color: #60b347; */
 }
 .body {
   background-color: #32cd32;
@@ -63,14 +61,12 @@ body {
 }
 .section-2 {
   display: none;
-  background-color: #415868;
-
   background-image: linear-gradient(
       to right bottom,
       rgba(7, 6, 6, 0.308),
       rgba(19, 16, 13, 0.534)
     ),
-    url('pic1.jpg');
+    url('pic11.jpg');
   background-size: cover;
   background-position: center;
 }
