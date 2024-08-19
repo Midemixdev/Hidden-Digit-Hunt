@@ -15,7 +15,7 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #2e4053;
-  overflow: hidden;
+  overflow-x: hidden;
   /* overflow: hidden; */
   /* background-color: #60b347; */
 }
