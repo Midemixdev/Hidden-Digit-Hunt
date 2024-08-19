@@ -13,8 +13,7 @@ html {
 /* 'Press Start 2P', */
 body {
   font-family: 'Roboto Slab', serif;
-  color: #eee;
-  background-color: #2e4053;
+  color: #eeeeeef6;
   overflow-x: hidden;
   /* overflow: hidden; */
   /* background-color: #60b347; */
@@ -24,9 +23,17 @@ body {
 }
 
 .section-1 {
-  background-color: #32cd32;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(7, 6, 6, 0.308),
+      rgba(19, 16, 13, 0.534)
+    ),
+    url('pic2.jpg');
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
+
 .top-head,
 .top-p {
   font-size: 3.4rem;
@@ -41,6 +48,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  background-color: rgba(0, 0, 0, 0.308);
+  padding: 2rem;
+  border-radius: 5px;
 }
 .wrap {
   display: flex;
@@ -53,6 +63,16 @@ body {
 }
 .section-2 {
   display: none;
+  background-color: #415868;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(7, 6, 6, 0.308),
+      rgba(19, 16, 13, 0.534)
+    ),
+    url('pic1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 /* LAYOUT */
 header {
@@ -139,6 +159,7 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .btn:hover {
